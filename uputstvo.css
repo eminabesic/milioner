@@ -1,0 +1,16 @@
+body{
+	background-image: url('pozadina.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+    height:700px;
+   color: lightcoral;
+   font-size: 20px;
+}
+.naslov{
+	text-align: center;
+}
+
+.pravila{
+	font-size: 20px;
+}

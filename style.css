@@ -1,0 +1,35 @@
+body{
+	background-image: url('pozadina.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+	height: 700px;
+}
+.dugme {
+ border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+/*https://uiverse.io/buttons*/
+.dugme:hover {
+ background-position: right center;
+ background-size: 200% auto;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
+}
+
+.pocetna_stranica{
+	align-items: center;
+      justify-content: center;
+}
+
+.pocetna_stranica p {
+	font-size: 30px;
+}
+
+
